@@ -18,11 +18,15 @@ if __name__ == "__main__":
 
 '''
 
-Steps to run the Flask App:
+Steps to run the Flask App locally:
 
 1. cd src/
-2. flask run 
+2. export FLASK_APP=main, export FLASK_ENV=development
+3. flask run 
 
 Server should start by default on port 5000
+
+Alternative for running:
+python main.py
 
 '''
